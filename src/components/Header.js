@@ -19,7 +19,7 @@ function Header() {
                     </ul>
                 </nav>
                 </div>
-                 <button className="getSctootin-button">GetScootin</button>   
+                 <button className="getSctootin-button">Get Scootin</button>   
             </div>
         </header>
     )

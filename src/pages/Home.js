@@ -1,4 +1,5 @@
 import Header from "../components/Header"
+import TopSectionHome from "../components/TopSectionHome"
 
 
 function Home() {
@@ -6,6 +7,7 @@ function Home() {
     return (
         <div className="home-page">
         <Header/>
+        <TopSectionHome/>
        
       
      
