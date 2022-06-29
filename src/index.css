@@ -127,7 +127,24 @@ nav li  {
 }
 
 
-/*typography*/
+/* Layout home page desktop mid body home*/
+
+
+.mid-body-home-container {
+  display: flex;
+  margin-top: 100px;
+}
+
+.locate-app, .mid-body-two {
+  margin-right: 50px;
+}
+
+.locate-app {
+  margin-left: 100px;
+}
+
+
+/*typography top section top home*/
 
 
 .scooter-sharing-heading {
@@ -148,5 +165,28 @@ nav li  {
   line-height: 25px;
   letter-spacing: 0px;
   color: #FFFFFF;
-  
 }
+
+
+
+
+/*typography top mid body*/
+
+.mid-body-h2 {
+  font-family: Space Mono;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.0714285373687744px;
+  color:#495567;
+}
+
+.mid-body-p {
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  color: #939CAA;
+}
+
