@@ -10,10 +10,10 @@ function TopSectionHome() {
     
     return (
 
-            <div className="top-section-home" style={ backgroundScooter }>
+        <div className="top-section-home" style={ backgroundScooter }>
 
-                
-            </div>                
+
+        </div>                
        
            
     )
