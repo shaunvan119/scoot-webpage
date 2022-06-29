@@ -1,8 +1,10 @@
-function Home() {
+
+
+function About() {
     
     return (
         <div className="home-page">
-        <h1>Home</h1>
+        <h1>About</h1>
        
       
      
@@ -10,4 +12,4 @@ function Home() {
     )
 }
 
-export default Home
+export default About

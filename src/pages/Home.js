@@ -1,8 +1,11 @@
-function About() {
+import Header from "../components/Header"
+
+
+function Home() {
     
     return (
         <div className="home-page">
-        <h1>About</h1>
+        <Header/>
        
       
      
@@ -10,4 +13,4 @@ function About() {
     )
 }
 
-export default About
+export default Home
