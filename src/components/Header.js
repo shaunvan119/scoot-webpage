@@ -8,17 +8,18 @@ function Header() {
     return (
         <header>
             <div class="header-container">
-                <div class="site-nav">
-                    <img src={logo} alt="Logo" className="logo" />  
-                    <nav>
+                
+                <div class="site-nav">  
+                 <img src={logo} alt="Logo" className="logo" />    
+                <nav className="nav-headings">
                     <ul>
-                        <li><Link to="/About">About</Link></li>
-                        <li><Link to="/Location">Location</Link></li>
-                        <li><Link to="/Careers">Careers</Link></li>
+                        <li><Link style={{textDecoration: 'none', color:'#939CAA'}}  to="/About" >About</Link></li>
+                        <li><Link  style={{textDecoration: 'none', color:'#939CAA'}}  to="/Location">Location</Link></li>
+                        <li><Link  style={{textDecoration: 'none', color:'#939CAA'}}  to="/Careers">Careers</Link></li>
                     </ul>
                 </nav>
                 </div>
-                 <button className="GetSctootin-button">GetScootin</button>   
+                 <button className="getSctootin-button">GetScootin</button>   
             </div>
         </header>
     )
