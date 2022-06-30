@@ -177,6 +177,13 @@ nav li  {
   margin-right: 100px;
 }
 
+.mid-body-home-container-four{
+  margin-top: 200px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+}
+
 .girlphone {
   position: absolute;
   left: 830px;
@@ -192,6 +199,8 @@ nav li  {
 .mid-body-home-container-two {
   margin-top: 180px;
 }
+
+
 
 .easy-p {
   margin-bottom: 40px;
@@ -221,6 +230,26 @@ nav li  {
     top: 1900px;
   }
 
+  .cashpic {
+    position: absolute;
+    width: 445px;
+    height: 445px;
+    left: 830px;
+    top: 2470px;
+
+  }
+
+  .circlethree {
+    position: absolute;
+    left: 1339px;
+  }
+
+
+.rightarrowbottom {
+  position: absolute;
+  left: 705px;
+  top: 2700px;
+}
 
 
 

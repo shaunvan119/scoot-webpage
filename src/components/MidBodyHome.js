@@ -8,6 +8,9 @@ import circleone from "../assets/patterns/circle.svg"
 import citycircle from "../assets/images/citycircle.png"
 import leftarrow from "../assets/patterns/right-arrow.svg"
 import circletwo from "../assets/patterns/circle.svg"
+import cashpic from "../assets/images/cashpic.png"
+import rightarrowbottom from "../assets/patterns/left-downward-arrow.svg"
+import circlethree from "../assets/patterns/circle.svg"
 
 
 
@@ -72,17 +75,28 @@ function MidBodyHome() {
                 <img src={leftarrow} alt="line" className="leftarrow" />
                 <img src={circletwo} alt="line" className="circletwo" />  
                 <div className="right-easy">
-                <h2 className="easy-h2">Easy to use<br/>riding telemetry</h2>
-                <p className="easy-p">The Scoot app is available with riding telemetry. This means<br/> 
-                it can show you your average speed, how long you've been<br/>
-                using the scooter, your traveling distance, and many more<br/> 
-                things all in an easy to use app.</p>
+                <h2 className="easy-h2">Coming to a city<br/>near you</h2>
+                <p className="easy-p">Scoot is available in 4 major cities so far. We’re expanding<br/>
+                    rapidly, so be sure to let us know if you want to see us in<br/>
+                    your hometown. We’re aiming to let our scooters loose on 23<br/>
+                    cities over the coming year.</p>
                 <button className="learn-more-button">Learn More</button>
                 </div>
                 
             </div>
 
             <div className="mid-body-home-container-four">
+                <div className="left-easy-bottom">
+                <h2 className="easy-h2">Zero hassle<br/>payments</h2>
+                <p className="easy-p">Our payment is as easy as one two three. We accept most<br/>
+              credit cards and debit cards. You can also link your PayPal <br/>
+              account inside the app. Need to pay later? No worries! You<br/>
+              can defer payment for up to a month.</p>
+                <button className="learn-more-button">Learn More</button>
+                </div>
+                <img src={cashpic} alt="line" className="cashpic" /> 
+                <img src={rightarrowbottom} alt="line" className="rightarrowbottom" />
+                <img src={circlethree} alt="line" className="circlethree" />  
 
             </div>          
        </div>
