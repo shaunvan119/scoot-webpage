@@ -34,9 +34,9 @@ function Footer() {
                   
             </div>
             <div className="socail-icons">
-                    <img src={facebook} alt="Logo" className="facebook"/> 
-                    <img src={twitter} alt="Logo" className="twitter"/>
-                    <img src={instagram} alt="Logo" className="instagram"/>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><img src={facebook} alt="Logo" className="facebook"/></a> 
+                    <a href="https://twitter.com/?lang=en" target="_blank" rel="noreferrer"><img src={twitter} alt="Logo" className="twitter"/></a>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><img src={instagram} alt="Logo" className="instagram"/></a>
                     
                 </div>
             </div>
