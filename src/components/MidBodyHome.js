@@ -11,6 +11,7 @@ import circletwo from "../assets/patterns/circle.svg"
 import cashpic from "../assets/images/cashpic.png"
 import rightarrowbottom from "../assets/patterns/left-downward-arrow.svg"
 import circlethree from "../assets/patterns/circle.svg"
+import { Link } from "react-router-dom"
 
 
 
@@ -62,7 +63,7 @@ function MidBodyHome() {
                 it can show you your average speed, how long you've been<br/>
                 using the scooter, your traveling distance, and many more<br/> 
                 things all in an easy to use app.</p>
-                <button className="learn-more-button">Learn More</button>
+                <Link to="/contactUs"><button className="learn-more-button">Learn More</button></Link>
                 </div>
                 <img src={girlphone} alt="line" className="girlphone" /> 
                 <img src={rightarrow} alt="line" className="rightarrow" />
@@ -80,7 +81,7 @@ function MidBodyHome() {
                     rapidly, so be sure to let us know if you want to see us in<br/>
                     your hometown. We’re aiming to let our scooters loose on 23<br/>
                     cities over the coming year.</p>
-                <button className="learn-more-button">Learn More</button>
+                <Link to="/contactUs"><button className="learn-more-button">Learn More</button></Link>
                 </div>
                 
             </div>
@@ -89,10 +90,10 @@ function MidBodyHome() {
                 <div className="left-easy-bottom">
                 <h2 className="easy-h2">Zero hassle<br/>payments</h2>
                 <p className="easy-p">Our payment is as easy as one two three. We accept most<br/>
-              credit cards and debit cards. You can also link your PayPal <br/>
-              account inside the app. Need to pay later? No worries! You<br/>
-              can defer payment for up to a month.</p>
-                <button className="learn-more-button">Learn More</button>
+                credit cards and debit cards. You can also link your PayPal <br/>
+                account inside the app. Need to pay later? No worries! You<br/>
+                can defer payment for up to a month.</p>
+                <Link to="/contactUs"><button className="learn-more-button">Learn More</button></Link>
                 </div>
                 <img src={cashpic} alt="line" className="cashpic" /> 
                 <img src={rightarrowbottom} alt="line" className="rightarrowbottom" />

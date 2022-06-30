@@ -17,8 +17,8 @@ function Footer() {
             <div className="sign-up-footer">
                 <h2 className="sign-up">Sign up and<br/>Scoot off today</h2>
                 <div className="incons-google-app">
-                 <img src={appstore} alt="Logo" className="appstore"/> 
-                 <img src={googleplay} alt="Logo" className="googleplay"/>
+                 <a href="https://www.apple.com/au/app-store/" target="_blank" rel="noreferrer"><img src={appstore} alt="Logo" className="appstore"/></a> 
+                 <a href="https://play.google.com/store/apps/" target="_blank" rel="noreferrer"><img src={googleplay} alt="Logo" className="googleplay"/></a>
                 </div>
             </div>
             <div className="bottom-footer">

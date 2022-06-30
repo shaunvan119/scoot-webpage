@@ -2,6 +2,7 @@ import scooter from "../assets/images/scooter.jpg"
 import line from "../assets/patterns/line.svg"
 import arrowRight from "../assets/patterns/right-arrow.svg"
 import whiteCircles from "../assets/patterns/white-circles.svg"
+import { Link } from "react-router-dom"
 
 
 var backgroundScooter = {
@@ -25,7 +26,7 @@ function TopSectionHome() {
                are placed in convenient locations in each of our cities.<br/>
                Use our app to locate the nearest bike, unlock it with a<br/>
                tap, and you’re away!</p>
-          <button className="scooter-sharing-button">Get Scootin</button> 
+          <Link to="/contactUs"><button className="scooter-sharing-button">Get Scootin</button></Link> 
         </div>
       </div>                
        
