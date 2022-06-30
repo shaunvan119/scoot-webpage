@@ -174,7 +174,7 @@ nav li  {
   margin-top: 200px;
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: flex-end;
   margin-right: 100px;
 }
 
@@ -478,17 +478,27 @@ label {
 }
 
 .about-h1 {
+  top: 120px;
+  left: 55px;
+
+  
+}
+
+/*About section typography*/
+
+.about-h1 {
   font-family: Space Mono;
-  font-size: 56px;
+  font-size: 46px;
   font-weight: 700;
   line-height: 56px;
   letter-spacing: -2.5px;
   color: #FFFFFF;
   position: absolute;
-  top: 120px;
-  left: 55px;
+  
   
 }
+
+
 
 
 
