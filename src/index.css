@@ -130,7 +130,7 @@ nav li  {
 /* Layout home page desktop mid body home*/
 
 
-.mid-body-home-container {
+.mid-body-home-container-one {
   display: flex;
   margin-top: 100px;
 }
@@ -149,6 +149,46 @@ nav li  {
   left: 0.5px;
   top: 900.5px;
   z-index:-1;
+}
+
+.learn-more-button {
+  height: 53px;
+  width: 180px;
+  background: #FCB72B;
+  border: none;
+  font-family: Space Mono;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.mid-body-home-container-two {
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+}
+
+.girlphone {
+  position: absolute;
+  left: 830px;
+  top: 1297px;
+}
+
+.rightarrow {
+  position: absolute;
+  left: 705px;
+  top: 1604px;
+}
+
+.mid-body-home-container-two {
+  margin-top: 180px;
+}
+
+.easy-p {
+  margin-bottom: 40px;
 }
 
 
@@ -175,6 +215,24 @@ nav li  {
   color: #FFFFFF;
 }
 
+.easy-p {
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  color: #939CAA;
+}
+
+
+.easy-h2 {
+  font-family: Space Mono;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2.142857074737549px;
+  color: #939CAA;
+}
 
 
 

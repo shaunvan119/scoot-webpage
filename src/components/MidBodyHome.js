@@ -2,13 +2,17 @@ import locate from "../assets/icons/locate.svg"
 import ride from "../assets/icons/ride.svg"
 import scootericon from "../assets/icons/scooter.svg"
 import greyline from "../assets/patterns/greyline.png"
+import girlphone from "../assets/images/girlphone.png"
+import rightarrow from "../assets/patterns/left-downward-arrow.svg"
 
 
 function MidBodyHome() {
     
     return (
 
-        <div className="mid-body-home-container">
+        <div className="mid-body-wrapper">
+
+        <div className="mid-body-home-container-one">
             <img src={greyline} alt="line" className="greyline" />  
             
             <div className="mid-body-one">
@@ -20,7 +24,6 @@ function MidBodyHome() {
                       areas with most demand, so one should never<br/> 
                       be too far away. </p>
                 </div>
-
             </div>
             <div className="mid-body-two">
                 <div className="pick-scoot">
@@ -31,7 +34,6 @@ function MidBodyHome() {
                      charge they have left and can see roughly how<br/>
                       much it will cost.</p>
                 </div>
-
             </div>
             <div className="mid-body-three">
                 <div className="enjoy-ride">
@@ -42,10 +44,31 @@ function MidBodyHome() {
                      you’re off! Always lock bikes away from<br/> 
                      walkways and accessibility ramps.</p>
                 </div>
+            </div>   
+        </div> 
+
+             <div className="mid-body-home-container-two">
+                <div className="left-easy">
+                <h2 className="easy-h2">Easy to use<br/>riding telemetry</h2>
+                <p className="easy-p">The Scoot app is available with riding telemetry. This means<br/> 
+                it can show you your average speed, how long you've been<br/>
+                using the scooter, your traveling distance, and many more<br/> 
+                things all in an easy to use app.</p>
+                <button className="learn-more-button">Learn More</button>
+                </div>
+                <img src={girlphone} alt="line" className="girlphone" /> 
+                <img src={rightarrow} alt="line" className="rightarrow" /> 
             </div>
-        </div>              
-       
-           
+
+            <div className="mid-body-home-container-three">
+
+            </div>
+
+            <div className="mid-body-home-container-four">
+
+            </div>          
+       </div>
+        
     )
 }
 
