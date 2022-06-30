@@ -4,6 +4,11 @@ import scootericon from "../assets/icons/scooter.svg"
 import greyline from "../assets/patterns/greyline.png"
 import girlphone from "../assets/images/girlphone.png"
 import rightarrow from "../assets/patterns/left-downward-arrow.svg"
+import circleone from "../assets/patterns/circle.svg"
+import citycircle from "../assets/images/citycircle.png"
+import leftarrow from "../assets/patterns/right-arrow.svg"
+import circletwo from "../assets/patterns/circle.svg"
+
 
 
 function MidBodyHome() {
@@ -57,11 +62,24 @@ function MidBodyHome() {
                 <button className="learn-more-button">Learn More</button>
                 </div>
                 <img src={girlphone} alt="line" className="girlphone" /> 
-                <img src={rightarrow} alt="line" className="rightarrow" /> 
+                <img src={rightarrow} alt="line" className="rightarrow" />
+                <img src={circleone} alt="line" className="circleone" />  
+
             </div>
 
             <div className="mid-body-home-container-three">
-
+                <img src={citycircle} alt="line" className="citycircle" /> 
+                <img src={leftarrow} alt="line" className="leftarrow" />
+                <img src={circletwo} alt="line" className="circletwo" />  
+                <div className="right-easy">
+                <h2 className="easy-h2">Easy to use<br/>riding telemetry</h2>
+                <p className="easy-p">The Scoot app is available with riding telemetry. This means<br/> 
+                it can show you your average speed, how long you've been<br/>
+                using the scooter, your traveling distance, and many more<br/> 
+                things all in an easy to use app.</p>
+                <button className="learn-more-button">Learn More</button>
+                </div>
+                
             </div>
 
             <div className="mid-body-home-container-four">

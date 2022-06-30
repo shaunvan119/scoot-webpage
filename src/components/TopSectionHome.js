@@ -3,6 +3,7 @@ import line from "../assets/patterns/line.svg"
 import arrowRight from "../assets/patterns/right-arrow.svg"
 import whiteCircles from "../assets/patterns/white-circles.svg"
 
+
 var backgroundScooter = {
   width: "100%",
   height: "652px",
@@ -16,7 +17,8 @@ function TopSectionHome() {
       <div className="top-section-home" style={ backgroundScooter }>
           <img src={line} alt="line" className="line" />  
           <img src={arrowRight} alt="arrow" className="right-arrow" />
-          <img src={whiteCircles} alt="oval" className="whiteCircles" />    
+          <img src={whiteCircles} alt="oval" className="whiteCircles" /> 
+
           <div className="header-home">
           <h1 className="scooter-sharing-heading">Scooter sharing<br/>made simple</h1>
           <p className="sharing-p">Scoot takes the hassle out of urban mobility. Our bikes<br/>

@@ -73,9 +73,7 @@ nav li  {
   height: auto;
 }
 
-.header-home {
-  
-}
+
 
 .scooter-sharing-heading {
   position: absolute;
@@ -171,6 +169,14 @@ nav li  {
   margin-left: 100px;
 }
 
+.mid-body-home-container-three {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-right: 100px;
+}
+
 .girlphone {
   position: absolute;
   left: 830px;
@@ -190,6 +196,33 @@ nav li  {
 .easy-p {
   margin-bottom: 40px;
 }
+
+.circleone {
+  position: absolute;
+  left: 1339px;
+  top: 1297px;
+}
+
+.citycircle {
+  position: absolute;
+  left: 165px;
+  top: 1900px;
+  }
+
+  .leftarrow {
+    position: absolute;
+    left: 0px;
+    top: 1900px;
+  }
+
+  .circletwo {
+    position: absolute;
+    left: -344px;
+    top: 1900px;
+  }
+
+
+
 
 
 /*typography top section top home*/
@@ -231,7 +264,7 @@ nav li  {
   font-weight: 700;
   line-height: 48px;
   letter-spacing: -2.142857074737549px;
-  color: #939CAA;
+  color: #495567;
 }
 
 
