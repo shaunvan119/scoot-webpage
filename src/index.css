@@ -2,6 +2,7 @@ body {
   margin: 0;
   font-family: 'Lexend Deca', sans-serif;
   overflow-x: hidden;
+  
  
 }
 
@@ -9,8 +10,8 @@ body {
 /* Layout home page desktop header*/
 .wrapper {
   margin: 0 auto;
-  max-width: 1440px;
-  width: 100%;
+  max-width: 100%;
+  width: 1440px;
     height: auto;
  
 }
@@ -236,6 +237,7 @@ nav li  {
     height: 445px;
     left: 830px;
     top: 2470px;
+    margin: 0 auto;
 
   }
 
@@ -296,6 +298,75 @@ nav li  {
   color: #495567;
 }
 
+/*layout footer section */
+
+.footer-container {
+  margin-top: 200px;
+}
+
+.sign-up-footer {
+  width: 1440px;
+  height: 300px;
+  background-color: #495567;
+}
+
+.bottom-footer {
+  width: 1440px;
+  height: 96px;
+  background-color: #333A44;
+}
+
+.sign-up-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 100%;
+  
+}
+
+.bottom-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.sign-up {
+  margin-left: 100px;
+}
+
+.incons-google-app {
+  margin-right: 100px;
+}
+
+.appstore {
+  margin-right: 18px;
+}
+
+.site-nav-bottom {
+  display: flex;
+  align-items: center;
+  
+}
+
+.logo-bottom {
+  color: #FFFFFF;
+  margin-left: 100px;
+}
+
+.socail-icons {
+  margin-right: 100px;
+}
+
+.facebook, .twitter {
+  margin-right: 24px;
+}
+
+
 
 
 /*typography top mid body*/
@@ -317,4 +388,17 @@ nav li  {
   letter-spacing: 0px;
   color: #939CAA;
 }
+
+.sign-up {
+  font-family: Space Mono;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2.142857074737549px;
+  color: #FFFFFF;
+
+
+}
+
+
 

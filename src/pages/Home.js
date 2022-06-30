@@ -1,6 +1,7 @@
 import Header from "../components/Header"
 import TopSectionHome from "../components/TopSectionHome"
 import MidBodyHome from "../components/MidBodyHome"
+import Footer from "../components/Footer"
 
 
 function Home() {
@@ -10,6 +11,7 @@ function Home() {
         <Header/>
         <TopSectionHome/>
         <MidBodyHome/>
+        <Footer/>
        
       
      
