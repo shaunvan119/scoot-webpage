@@ -18,11 +18,10 @@ function MidBodyAbout() {
 
              <div className="about-container-one">
                 <div className="mobility">
-                <h2 className="mobility-h2">Easy to use<br/>riding telemetry</h2>
-                <p className="mobility-p">The Scoot app is available with riding telemetry. This means<br/> 
-                it can show you your average speed, how long you've been<br/>
-                using the scooter, your traveling distance, and many more<br/> 
-                things all in an easy to use app.</p>
+                <h2 className="about-h2">Mobility for the<br/>digital era</h2>
+                <p className="about-p">Getting around should be simple (and even fun!) for<br/>
+                 everyone. We embrace technology to provide low cost, smart<br/>
+                  access to scooters at your fingertips.</p>
                 
                 </div>
                 <img src={girlphoneTwo} alt="line" className="girlphone-two" /> 
@@ -36,11 +35,10 @@ function MidBodyAbout() {
                 <img src={leftarrowabout} alt="line" className="left-arrow-about" />
                 <img src={circletwoabout} alt="line" className="circle-two-about" />  
                 <div className="better">
-                <h2 className="better-h2">Coming to a city<br/>near you</h2>
-                <p className="better-p">Scoot is available in 4 major cities so far. We’re expanding<br/>
-                    rapidly, so be sure to let us know if you want to see us in<br/>
-                    your hometown. We’re aiming to let our scooters loose on 23<br/>
-                    cities over the coming year.</p>
+                <h2 className="about-h2">Better urban<br/>living</h2>
+                <p className="about-p">We’re helping connect cities and bring people closer<br/>
+                 together. Our scooters are also fully-electric and we offset<br/>
+                  the minimal carbon footprint for each ride.</p>
                 </div>
                 
             </div>
@@ -49,33 +47,31 @@ function MidBodyAbout() {
            
             
             <div className="values-one">
+                <h2 className="values-header">Our values</h2>
                 <div className="our-tech">
                     <img src={valueone} alt="phone" className="value-one" />  
-                    <h2 className="our-tech-h2">Locate with app</h2>
-                    <p className="our-tech-p">Use the app to find the nearest scooter to you.<br/>
-                     We are continuously placing scooters in the<br/>
-                      areas with most demand, so one should never<br/> 
-                      be too far away. </p>
+                    <h2 className="values-h2">Our tech</h2>
+                    <p className="values-p">We’re using cutting edge technology to drive<br/>
+                     accessible urban transportation forward. Our<br/>
+                      fully electric scooters are a joy to ride!</p>
                 </div>
             </div>
             <div className="values-two">
                 <div className="our-integrity">
                     <img src={valuetwo} alt="line" className="value-two" /> 
-                    <h2 className="integrity-h2">Pick your scooter</h2>
-                    <p className="integrity-p">We show the most important info for the<br/>
-                    scooters closest to you. So you know how much<br/>
-                     charge they have left and can see roughly how<br/>
-                      much it will cost.</p>
+                    <h2 className="values-h2">Our integrity</h2>
+                    <p className="values-p">We are fully committed to deliver a great yet<br/>
+                     safe, sustainable micro-mobility experience in<br/>
+                     every city we serve.</p>
                 </div>
             </div>
             <div className="values-three">
                 <div className="our-community">
                     <img src={valuethree} alt="line" className="value-three" /> 
-                    <h2 className="community-h2">Enjoy the ride</h2>
-                    <p className="community-p">Scan the QR code and the bike will<br/> 
-                    unlock. Retract the cable lock, put on a helmet, and <br/>
-                     you’re off! Always lock bikes away from<br/> 
-                     walkways and accessibility ramps.</p>
+                    <h2 className="values-h2">Our community</h2>
+                    <p className="values-p">We support every community we serve. All<br/>
+                     workers are paid a living wage based on their<br/>
+                      location and are Scoot employees.</p>
                 </div>
             </div>   
         </div>         

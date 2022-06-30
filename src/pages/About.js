@@ -1,5 +1,6 @@
 import Header from "../components/Header"
 import TopSectionAbout from "../components/TopSectionAbout"
+import MidBodyAbout from "../components/MidBodyAbout"
 
 
 function About() {
@@ -8,6 +9,7 @@ function About() {
         <div className="about-page">
         <Header/>
         <TopSectionAbout/>
+        <MidBodyAbout/>
         
        
       

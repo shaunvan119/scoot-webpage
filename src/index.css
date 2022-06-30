@@ -279,7 +279,7 @@ nav li  {
   color: #FFFFFF;
 }
 
-.easy-p {
+.easy-p, .about-p {
   font-family: Lexend Deca;
   font-size: 15px;
   font-weight: 400;
@@ -289,7 +289,7 @@ nav li  {
 }
 
 
-.easy-h2 {
+.easy-h2, .about-h2 {
   font-family: Space Mono;
   font-size: 48px;
   font-weight: 700;
@@ -441,7 +441,7 @@ label {
   text-align: center;
 }
 
-.mid-body-h2 {
+.mid-body-h2, .values-h2 {
   font-family: Space Mono;
   font-size: 24px;
   font-weight: 700;
@@ -450,7 +450,7 @@ label {
   color:#495567;
 }
 
-.mid-body-p {
+.mid-body-p, .values-p {
   font-family: Lexend Deca;
   font-size: 15px;
   font-weight: 400;
@@ -495,7 +495,18 @@ label {
   color: #FFFFFF;
   position: absolute;
   
-  
+}
+
+.values-header  {
+  font-family: Space Mono;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2.142857074737549px;
+  text-align: center;
+  color: #495567;
+
+
 }
 
 
