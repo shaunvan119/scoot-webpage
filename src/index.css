@@ -466,8 +466,28 @@ label {
   line-height: 48px;
   letter-spacing: -2.142857074737549px;
   color: #FFFFFF;
+}
 
 
+/*About section layout*/
+
+.about-header-style {
+  width: 1440px;
+  height: 200px;
+
+}
+
+.about-h1 {
+  font-family: Space Mono;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+  color: #FFFFFF;
+  position: absolute;
+  top: 120px;
+  left: 55px;
+  
 }
 
 

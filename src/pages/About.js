@@ -1,10 +1,14 @@
+import Header from "../components/Header"
+import TopSectionAbout from "../components/TopSectionAbout"
 
 
 function About() {
     
     return (
-        <div className="home-page">
-        <h1>About</h1>
+        <div className="about-page">
+        <Header/>
+        <TopSectionAbout/>
+        
        
       
      
