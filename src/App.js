@@ -3,6 +3,7 @@ import About from "./pages/About";
 import Careers from "./pages/Careers";
 import Locations from "./pages/Locations";
 import { Routes, Route } from "react-router-dom";
+import ContactForm from "./components/ContactForm";
 
 
 
@@ -14,7 +15,7 @@ function App() {
         <Route exact path="/" element={[<Home/>]}/> 
         <Route path="/About" element={<About/>}/>
         <Route path="/Careers" element={<Careers/>}/>
-        <Route path="/Location" element={<Locations/>}/>
+        <Route path="/contactUs" element={<ContactForm/>}/>
      </Routes>
             
             

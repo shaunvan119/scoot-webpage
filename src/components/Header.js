@@ -19,7 +19,7 @@ function Header() {
                     </ul>
                 </nav>
                 </div>
-                 <button className="getSctootin-button">Get Scootin</button>   
+                 <Link to="/contactUs"><button className="getSctootin-button">Get Scootin</button></Link>   
             </div>
         </header>
     )

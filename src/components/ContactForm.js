@@ -1,9 +1,15 @@
+
+import scooter from "../assets/images/scooter.jpg"
 import React, { useState, useRef } from "react"
 import emailjs from "@emailjs/browser"
 import Header from "./Header";
 
 
-
+var backgroundScooter = {
+  width: "100%",
+  height: "652px",
+  backgroundImage: `url(${scooter})`
+};
 
 
 
@@ -47,7 +53,9 @@ const ContactForm = () => {
   return (
      <div className="form-section-contactus">
      <Header/>
-     <h1 className="contact-us-header">Submit a help request and<br/> we’ll get in touch shortly.</h1>
+     <div style={ backgroundScooter }> 
+     <div className="centered-form">
+     <h1 className="contact-us-header">We’ll get in touch shortly.</h1>
       <form className="form-contact" ref={form} onSubmit={sendEmail}>
         <label>Name</label>
         <input className="input-contact" type="text" name="user_name" />
@@ -58,7 +66,8 @@ const ContactForm = () => {
         <div> {result ? <Result/> : null}</div>
         <input className="input-button" type="submit" value="Send" />
       </form>
- 
+     </div> 
+ </div>
    </div> 
   );
 };

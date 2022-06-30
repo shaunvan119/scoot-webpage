@@ -366,10 +366,74 @@ nav li  {
   margin-right: 24px;
 }
 
+/*contact us page*/
+.form-section-contactus {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.centered-form {
+  margin: 0 auto;
+  margin-top: 100px;
+  
+}
+
+.form-contact {
+  display: flex;
+  flex-direction: column;
+ 
+
+}
+
+.form-contact {
+  align-items: center;
+  
+}
+
+label {
+  color: #FFFFFF;
+  margin-right: 430px;
+}
+
+.input-contact {
+  border: solid 1px;
+  border-color: #495567;
+  height: 30px;
+  width: 500px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  
+}
+
+.input-button {
+  width: 152px;
+  height: 48px;
+  border-radius: 30px;
+  border: solid 1px;
+  color: #6C8294;
+  margin-right: 300px;
+}
+
 
 
 
 /*typography top mid body*/
+
+.contact-us-header {
+  color: #FFFFFF;
+
+}
+
+.result-msg {
+  color: #FCB72B;
+}
+
+.contact-us-header {
+  text-align: center;
+}
 
 .mid-body-h2 {
   font-family: Space Mono;
