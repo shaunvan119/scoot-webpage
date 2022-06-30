@@ -143,6 +143,14 @@ nav li  {
   margin-left: 100px;
 }
 
+.greyline {
+  position: absolute;
+  width: 973px;
+  left: 0.5px;
+  top: 900.5px;
+  z-index:-1;
+}
+
 
 /*typography top section top home*/
 

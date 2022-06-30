@@ -1,6 +1,7 @@
 import locate from "../assets/icons/locate.svg"
 import ride from "../assets/icons/ride.svg"
 import scootericon from "../assets/icons/scooter.svg"
+import greyline from "../assets/patterns/greyline.png"
 
 
 function MidBodyHome() {
@@ -8,6 +9,7 @@ function MidBodyHome() {
     return (
 
         <div className="mid-body-home-container">
+            <img src={greyline} alt="line" className="greyline" />  
             
             <div className="mid-body-one">
                 <div className="locate-app">
