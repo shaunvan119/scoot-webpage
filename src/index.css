@@ -528,10 +528,19 @@ label {
 
 .left-arrow-about {
   position: absolute;
+  left: -100px;
+  top: 989px;
+}
 
-left: -100px;
-top: 989px;
+.values-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  justify-content: space-evenly;
+}
 
+.values-header {
+  margin-top: 300px;
 }
 
 

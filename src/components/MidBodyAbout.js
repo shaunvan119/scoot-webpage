@@ -41,12 +41,12 @@ function MidBodyAbout() {
                 </div>
                 
             </div>
-
+<h2 className="values-header">Our values</h2>
             <div className="values-container">
            
             
             <div className="values-one">
-                <h2 className="values-header">Our values</h2>
+                
                 <div className="our-tech">
                     <img src={valueone} alt="phone" className="value-one" />  
                     <h2 className="values-h2">Our tech</h2>
