@@ -8,12 +8,10 @@ function Careers() {
     
     return (
         <div className="careers-page">
-        <Header/>
-        <TopSectionCareers/>
-        <MidBodyCareers/>
-       
-      
-     
+            <Header/>
+            <TopSectionCareers/>
+            <MidBodyCareers/>
+            <Footer/>
         </div>
     )
 }
