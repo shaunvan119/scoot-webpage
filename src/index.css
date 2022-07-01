@@ -570,6 +570,43 @@ label {
 
 }
 
+/*About section apply boxes layout*/
+
+
+.career-box {
+  width: 1110px;
+  height: 128px;
+  background: #F2F5F9;
+  
+}
+
+.box-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*About section apply boxes typography*/
+
+
+.box-h2 {
+  font-family: Space Mono;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.0714285373687744px;
+  color: #495567;
+}
+
+.box-p {
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  color: #495567;
+}
 
 
 
