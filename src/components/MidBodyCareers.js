@@ -1,19 +1,17 @@
-import topgraphic from "../assets/images/phoneabout.png"
+import topgraphic from "../assets/images/careers-guy.png"
 import rightarrowabout from "../assets/patterns/left-downward-arrow.svg"
-import citycircleabout from "../assets/images/citycircle.png"
-import leftarrowabout from "../assets/patterns/right-arrow.svg"
-import circletwoabout from "../assets/patterns/circle.svg"
+import circlecareers from "../assets/patterns/circle.svg"
 import valueone from "../assets/images/valueone.png"
 import valuetwo from "../assets/images/valuetwo.png"
 import valuethree from "../assets/images/valuethree.png"
 
 
-function MidBodyAbout() {
+function MidBodyCareers() {
 
 
     return (
 
-     <div className="mid-body-about">
+     <div className="mid-body-careers">
 
              <div className="about-container-one">
                 <div className="mobility">
@@ -26,24 +24,10 @@ function MidBodyAbout() {
                 <img src={rightarrowabout} alt="line" className="rightarrow-two" />
             </div>
 
-            <div className="about-container-two">
-                <img src={citycircleabout} alt="line" className="about-circle-one" /> 
-                <img src={leftarrowabout} alt="line" className="left-arrow-about" />
-                <img src={circletwoabout} alt="line" className="circle-two-about" />  
-                <div className="better">
-                <h2 className="about-h2">Better urban<br/>living</h2>
-                <p className="about-p">We’re helping connect cities and bring people closer<br/>
-                 together. Our scooters are also fully-electric and we offset<br/>
-                  the minimal carbon footprint for each ride.</p>
-                </div>
-                
-            </div>
-<h2 className="values-header">Our values</h2>
-            <div className="values-container">
-           
             
+            <h2 className="values-header">Why join us?</h2>
+            <div className="values-container">
             <div className="values-one">
-                
                 <div className="our-tech">
                     <img src={valueone} alt="phone" className="value-one" />  
                     <h2 className="values-h2">Our tech</h2>
@@ -77,4 +61,4 @@ function MidBodyAbout() {
     )
 }
 
-export default MidBodyAbout
+export default MidBodyCareers
