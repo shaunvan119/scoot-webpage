@@ -474,15 +474,67 @@ label {
 .about-header-style {
   width: 1440px;
   height: 200px;
-
 }
 
 .about-h1 {
   top: 120px;
-  left: 55px;
-
-  
+  left: 55px; 
 }
+
+.about-container-one {
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  margin-top: 120px;
+}
+
+
+.girlphone-two {
+  position: absolute;
+  left: 830px;
+  top: 400px;
+}
+
+.rightarrow-two {
+  position: absolute;
+  left: 705px;
+  top: 600px;
+}
+
+.about-circle-one {
+  position: absolute;
+  width: 445px;
+  height: 445px;
+  left: 165px;
+  top: 981px;
+
+}
+
+.circle-two-about {
+  position: absolute;
+  width: 445px;
+  height: 445px;
+  left: -344px;
+  top: 981px;
+}
+
+.about-container-two {
+  margin-top: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 100px;
+}
+
+.left-arrow-about {
+  position: absolute;
+
+left: -100px;
+top: 989px;
+
+}
+
+
 
 /*About section typography*/
 

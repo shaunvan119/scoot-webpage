@@ -1,6 +1,5 @@
 import girlphoneTwo from "../assets/images/phoneabout.png"
 import rightarrowabout from "../assets/patterns/left-downward-arrow.svg"
-import circleaboutone from "../assets/patterns/circle.svg"
 import citycircleabout from "../assets/images/citycircle.png"
 import leftarrowabout from "../assets/patterns/right-arrow.svg"
 import circletwoabout from "../assets/patterns/circle.svg"
@@ -26,7 +25,7 @@ function MidBodyAbout() {
                 </div>
                 <img src={girlphoneTwo} alt="line" className="girlphone-two" /> 
                 <img src={rightarrowabout} alt="line" className="rightarrow-two" />
-                <img src={circleaboutone} alt="line" className="circle-about-one" />  
+                
 
             </div>
 
