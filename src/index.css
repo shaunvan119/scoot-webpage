@@ -577,15 +577,28 @@ label {
   width: 1110px;
   height: 128px;
   background: #F2F5F9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  padding-left: 100px;
+  margin-bottom: 20px;
+}
+
+.CareersApply-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
   
 }
 
-.box-container {
+/*.box-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-}
+  justify-content: center;
+}*/
 
 /*About section apply boxes typography*/
 
