@@ -450,7 +450,7 @@ label {
   color:#495567;
 }
 
-.mid-body-p, .values-p {
+.mid-body-p, .values-p, .location-p {
   font-family: Lexend Deca;
   font-size: 15px;
   font-weight: 400;
@@ -620,6 +620,38 @@ label {
   letter-spacing: 0px;
   color: #495567;
 }
+
+
+/*location section*/
+
+.worldmap {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 100px;
+ 
+}
+
+.city-not-listed {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+
+.location-h2 {
+  font-family: Space Mono;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2.142857074737549px;
+  color: #495567;
+
+}
+
+
+
 
 
 
