@@ -10,7 +10,7 @@ function Header() {
             <div class="header-container">
                 
                 <div class="site-nav">  
-                 <img src={logo} alt="Logo" className="logo" />    
+                 <Link to="/"><img src={logo} alt="Logo" className="logo" /></Link>    
                 <nav className="nav-headings">
                     <ul>
                         <li><Link style={{textDecoration: 'none', color:'#939CAA'}}  to="/About" >About</Link></li>
