@@ -14,8 +14,9 @@ function MidBodyLocations() {
                 know. We track requests and plan launches based on<br/>
                   demand. Feel free to message us by clicking the link or<br/>
                   messaging us on social.</p>
+                  <div className="location-button">
                   <Link to="/contactUs"><button className="getSctootin-button">Message Us</button></Link>   
-                   
+                   </div>
             </div>                
        </div>            
        

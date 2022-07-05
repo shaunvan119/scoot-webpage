@@ -8,6 +8,13 @@ body {
 
 
 /* Layout home page desktop header*/
+
+.worldmap {
+  max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
 .wrapper {
     margin: 0 auto;
     max-width: 100%;
@@ -708,6 +715,19 @@ label {
   display: none;
 }
 
+/*MQ tablet location*/ 
+
+
+
+.city-not-listed {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.location-button {
+ margin-left: 154px;
+}
 
 }
 
@@ -864,11 +884,6 @@ label {
   margin-top: 50px;
 }
 
-
-
-
-
-
 }
 
 
@@ -916,6 +931,18 @@ label {
   display: none;
 }
 
+.about-h1 {
+  top: 175px;
+
+  font-size: 40px;
+}
+
+
+/*mobile location*/
+.location-button {
+ margin-left: -5px;
+
+}
 
 
 }
