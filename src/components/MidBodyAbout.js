@@ -6,6 +6,7 @@ import circletwoabout from "../assets/patterns/circle.svg"
 import valueone from "../assets/images/valueone.png"
 import valuetwo from "../assets/images/valuetwo.png"
 import valuethree from "../assets/images/valuethree.png"
+import aboutmobile from "../assets/images/aboutmobile.png"
 
 
 function MidBodyAbout() {
@@ -16,6 +17,7 @@ function MidBodyAbout() {
      <div className="mid-body-about">
 
              <div className="about-container-one">
+             <img src={aboutmobile} alt="line" className="topgraphicmobile" /> 
                 <div className="mobility">
                 <h2 className="about-h2">Mobility for the<br/>digital era</h2>
                 <p className="about-p">Getting around should be simple (and even fun!) for<br/>
@@ -27,6 +29,7 @@ function MidBodyAbout() {
             </div>
 
             <div className="about-container-two">
+                <img src={citycircleabout} alt="line" className="about-circle-one-mobile" /> 
                 <img src={citycircleabout} alt="line" className="about-circle-one" /> 
                 <img src={leftarrowabout} alt="line" className="left-arrow-about" />
                 <img src={circletwoabout} alt="line" className="circle-two-about" />  

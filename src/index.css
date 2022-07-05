@@ -681,12 +681,47 @@ label {
   top: 2000px;
 }
 
+/*MQ tablet about*/
+
+.about-circle-one {
+  left: 0px;
+  top: auto;
+}
+
+.left-arrow-about{
+  left: -250px;
+  
+}
+
+
+.topgraphic {
+  left: 715px;
+  top: auto;
+}
+
+.rightarrow-two {
+  left: 700px;
+  top: 700px;
+}
+
+.circle-two-about {
+  display: none;
+}
+
 
 }
 
 
+
+
 @media  (max-width: 768px) {
-/*MQ tablet home*/
+/*MQ tablet home mobile*/
+
+
+.header-container {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
 
 .greyline {
   display: none;
@@ -754,14 +789,29 @@ label {
   margin-bottom: 40px;
 }
 
-.girlphone,.rightarrow,.circleone, .leftarrow, .citycircle, .circletwo, .cashpic, .rightarrowbottom{
+.girlphone,
+.rightarrow,
+.circleone, 
+.leftarrow, 
+.citycircle, 
+.circletwo, 
+.cashpic, 
+.rightarrowbottom, 
+.topgraphic, 
+.rightarrow-two, 
+.about-circle-one, 
+.left-arrow-about{
   display: none;
 
 }
 
 
 
-.mid-body-home-container-two, .mid-body-home-container-three, .mid-body-home-container-four  {
+.mid-body-home-container-two, 
+.mid-body-home-container-three, 
+.mid-body-home-container-four,
+.about-container-one, 
+.about-container-two, .values-container {
   margin: 0 auto;
   justify-content: center;
   display: flex;
@@ -797,6 +847,25 @@ label {
   padding-top: 50px;
 }
 
+/*MQ about mobile*/
+.about-container-one, 
+.about-container-two {
+  text-align: center;
+
+}
+
+.topgraphicmobile {
+  margin-top: 50px;
+}
+
+.about-circle-one-mobile {
+  height: 311px;
+  width: 311px;
+  margin-top: 50px;
+}
+
+
+
 
 
 
@@ -805,9 +874,9 @@ label {
 
 
 @media  (min-width: 768px) {
-/*MQ tablet home*/
+/*MQ mobile home*/
 
-.tabletgirl, .citycircletablet, .cashpictablet  {
+.tabletgirl, .citycircletablet, .cashpictablet, .topgraphicmobile, .about-circle-one-mobile {
   display: none;
 
 }
@@ -846,6 +915,8 @@ label {
 .socail-icons {
   display: none;
 }
+
+
 
 }
 
