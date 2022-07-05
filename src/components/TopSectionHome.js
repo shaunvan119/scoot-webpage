@@ -6,7 +6,7 @@ import { Link } from "react-router-dom"
 
 
 var backgroundScooter = {
-  width: "100%",
+  width: "1440px",
   height: "652px",
   backgroundImage: `url(${scooter})`
 };

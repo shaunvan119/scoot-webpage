@@ -11,6 +11,7 @@ import circletwo from "../assets/patterns/circle.svg"
 import cashpic from "../assets/images/cashpic.png"
 import rightarrowbottom from "../assets/patterns/left-downward-arrow.svg"
 import circlethree from "../assets/patterns/circle.svg"
+import tabletgirl from "../assets/images/tabletgirlmobile.png"
 import { Link } from "react-router-dom"
 
 
@@ -55,8 +56,10 @@ function MidBodyHome() {
                 </div>
             </div>   
         </div> 
+        
 
              <div className="mid-body-home-container-two">
+                <img src={tabletgirl} alt="line" className="tabletgirl" /> 
                 <div className="left-easy">
                 <h2 className="easy-h2">Easy to use<br/>riding telemetry</h2>
                 <p className="easy-p">The Scoot app is available with riding telemetry. This means<br/> 
@@ -72,6 +75,7 @@ function MidBodyHome() {
             </div>
 
             <div className="mid-body-home-container-three">
+            <img src={citycircle} alt="line" className="citycircletablet" /> 
                 <img src={citycircle} alt="line" className="citycircle" /> 
                 <img src={leftarrow} alt="line" className="leftarrow" />
                 <img src={circletwo} alt="line" className="circletwo" />  
@@ -87,6 +91,7 @@ function MidBodyHome() {
             </div>
 
             <div className="mid-body-home-container-four">
+            <img src={cashpic} alt="line" className="cashpictablet" /> 
                 <div className="left-easy-bottom">
                 <h2 className="easy-h2">Zero hassle<br/>payments</h2>
                 <p className="easy-p">Our payment is as easy as one two three. We accept most<br/>

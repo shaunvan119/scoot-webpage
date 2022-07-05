@@ -9,9 +9,9 @@ body {
 
 /* Layout home page desktop header*/
 .wrapper {
-  margin: 0 auto;
-  max-width: 100%;
-  width: 1440px;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1440px;
     height: auto;
  
 }
@@ -70,24 +70,23 @@ nav li  {
 /* Layout home page desktop top section*/
 
 .top-section-home {
-  width: 100%;
-  height: auto;
+  max-width: 100%;
+ 
+  
 }
 
 
 
 .scooter-sharing-heading {
-  position: absolute;
-  left: 165px;
-  top: 210px;
+  padding-top: 100px;
+  margin-left: 250px;
  
 }
 
 
 .sharing-p {
-  position: absolute;
-  left: 260px;
-  top: 380px;
+  margin-top: 40px;
+  margin-left: 250px;
 }
 
 .scooter-sharing-button {
@@ -101,10 +100,8 @@ nav li  {
   font-weight: 700;
   line-height: 25px;
   letter-spacing: 0px;
-  position: absolute;
-  left: 260px;
-  top: 541px;
-
+  margin-left: 245px;
+ 
 }
 
 .line {
@@ -649,6 +646,212 @@ label {
   color: #495567;
 
 }
+
+
+@media  (max-width: 1175px) {
+/*MQ tablet home*/
+
+.girlphone, .cashpic {
+  left: 715px;
+  top: auto;
+}
+
+.rightarrow {
+  left: 700px;
+  top: 1700px;
+}
+
+.rightarrowbottom {
+  left: 700px;
+  top: 2850px;
+}
+
+.citycircle {
+  left: 0px;
+  top: auto;
+}
+
+.circletwo {
+  display: none;
+}
+
+
+.leftarrow {
+  left: -250px;
+  top: 2000px;
+}
+
+
+}
+
+
+@media  (max-width: 768px) {
+/*MQ tablet home*/
+
+.greyline {
+  display: none;
+
+}
+
+  .header-home{
+  text-align: center;
+  margin-left: -250px;
+
+  
+}
+
+.scooter-sharing-heading {
+  padding-top: 100px;
+  margin-left: 250px;
+ 
+}
+
+
+.sharing-p {
+  margin-top: 40px;
+  margin-left: 250px;
+}
+
+
+.line {
+  display: none;
+}
+
+.right-arrow {
+  left: 0px;
+  top: 600px;
+}
+
+.whiteCircles {
+  left: 550px;
+  top: 660px;
+}
+
+.mid-body-home-container-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.mid-body-wrapper {
+  margin: 0 auto;
+  text-align: center;
+  
+}
+
+
+.mid-body-two{
+  margin-left: 80px;
+}
+
+.mid-body-three{
+  margin-left: 10px;
+}
+
+
+.mid-body-one, .mid-body-two, .mid-body-three  {
+  margin-bottom: 40px;
+}
+
+.girlphone,.rightarrow,.circleone, .leftarrow, .citycircle, .circletwo, .cashpic, .rightarrowbottom{
+  display: none;
+
+}
+
+
+
+.mid-body-home-container-two, .mid-body-home-container-three, .mid-body-home-container-four  {
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tabletgirl, .citycircletablet, .cashpictablet {
+  height: 311px;
+  width: 311px;
+  margin-top: 60px;
+}
+
+
+.sign-up-footer {
+  display: flex;
+  flex-direction: column;
+ 
+  
+}
+
+
+
+
+.sign-up, .incons-google-app {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+
+}
+
+.sign-up {
+  padding-top: 50px;
+}
+
+
+
+
+}
+
+
+
+@media  (min-width: 768px) {
+/*MQ tablet home*/
+
+.tabletgirl, .citycircletablet, .cashpictablet  {
+  display: none;
+
+}
+
+}
+
+@media  (max-width: 500px) {
+.easy-h2, .sign-up, .scooter-sharing-heading{
+  font-size: 32px;
+}
+
+.easy-p, .sharing-p {
+  font-size: 15px;
+}
+
+.scooter-sharing-heading {
+  line-height: 40px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.getSctootin-button {
+  margin: 0 auto;
+}
+
+.site-nav-bottom {
+  margin-left: -60px;
+  
+}
+
+.socail-icons {
+  display: none;
+}
+
+}
+
+
+
+
 
 
 
