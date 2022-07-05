@@ -979,6 +979,49 @@ label {
   margin-right: 30px;
 }
 
+.form-section-contactus {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.centered-form {
+  margin: 0 auto;
+  margin-top: 100px;
+  
+}
+
+.form-contact {
+  display: flex;
+  flex-direction: column;
+ 
+
+}
+
+.form-contact {
+  align-items: center;
+  
+}
+
+label {
+
+  margin-right: 0px;
+}
+
+.input-contact {
+  width: 400px;
+}
+
+.input-button {
+
+  margin-right: 250px;
+}
+
+
+
+
 
 }
 
