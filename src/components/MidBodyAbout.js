@@ -9,6 +9,7 @@ import valuethree from "../assets/images/valuethree.png"
 import aboutmobile from "../assets/images/aboutmobile.png"
 
 
+
 function MidBodyAbout() {
 
 

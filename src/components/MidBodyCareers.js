@@ -1,9 +1,9 @@
 import topgraphic from "../assets/images/careers-guy.png"
 import rightarrowabout from "../assets/patterns/left-downward-arrow.svg"
-import circlecareers from "../assets/patterns/circle.svg"
 import valueone from "../assets/images/valueone.png"
 import valuetwo from "../assets/images/valuetwo.png"
 import valuethree from "../assets/images/valuethree.png"
+import guycareers from "../assets/images/guycareers.png"
 
 
 function MidBodyCareers() {
@@ -14,6 +14,7 @@ function MidBodyCareers() {
      <div className="mid-body-careers">
 
              <div className="about-container-one">
+             <img src={guycareers} alt="line" className="topgraphicmobile" /> 
                 <div className="mobility">
                 <h2 className="about-h2">Mobility for the<br/>digital era</h2>
                 <p className="about-p">Getting around should be simple (and even fun!) for<br/>
