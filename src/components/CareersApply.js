@@ -8,7 +8,6 @@ function CareersApply() {
     return (
         
             <div class="CareersApply-container">
-                
                  <div className="career-box">
                     <div className="box-titles">
                     <h2 className="box-h2">General Manager</h2>

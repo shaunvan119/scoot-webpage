@@ -8,13 +8,10 @@ function Home() {
     
     return (
         <div className="home-page">
-        <Header/>
-        <TopSectionHome/>
-        <MidBodyHome/>
-        <Footer/>
-       
-      
-     
+            <Header/>
+            <TopSectionHome/>
+            <MidBodyHome/>
+            <Footer/>
         </div>
     )
 }

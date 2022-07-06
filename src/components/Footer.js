@@ -30,17 +30,14 @@ function Footer() {
                         <li><Link  style={{textDecoration: 'none', color:'#939CAA'}}  to="/Location">Location</Link></li>
                         <li><Link  style={{textDecoration: 'none', color:'#939CAA'}}  to="/Careers">Careers</Link></li>
                     </ul>
-                </nav>
-                  
+                </nav> 
             </div>
             <div className="socail-icons">
                     <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><img src={facebook} alt="Logo" className="facebook"/></a> 
                     <a href="https://twitter.com/?lang=en" target="_blank" rel="noreferrer"><img src={twitter} alt="Logo" className="twitter"/></a>
-                    <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><img src={instagram} alt="Logo" className="instagram"/></a>
-                    
+                    <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><img src={instagram} alt="Logo" className="instagram"/></a> 
                 </div>
             </div>
-              
             </div>
         </footer>
     )

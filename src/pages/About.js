@@ -8,11 +8,10 @@ function About() {
     
     return (
         <div className="about-page">
-        <Header/>
-        <TopSectionAbout/>
-        <MidBodyAbout/>
-        <Footer/>
-        
+            <Header/>
+            <TopSectionAbout/>
+            <MidBodyAbout/>
+            <Footer/> 
         </div>
     )
 }
