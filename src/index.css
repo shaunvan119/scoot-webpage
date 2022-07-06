@@ -648,7 +648,14 @@ label {
 
 
 @media  (max-width: 1175px) {
+
+
 /*MQ tablet home*/
+
+.greyline {
+  width: 850px;
+}
+
 
 .whiteCircles {
   display: none;
@@ -891,14 +898,58 @@ label {
 
 }
 
-
-
 @media  (min-width: 768px) {
 /*MQ mobile home*/
 
 .tabletgirl, .citycircletablet, .cashpictablet, .topgraphicmobile, .about-circle-one-mobile,.mid-body-h2 {
   display: none;
 
+}
+
+}
+
+
+
+@media  (min-width: 1454px) {
+/*MQ mobile home*/
+
+.girlphone, .cashpic {
+  left: 1250px;
+}
+
+.topgraphic {
+  left: 1050px;
+}
+
+.citycircle, .about-circle-one {
+  left: 300px;
+
+}
+
+.left-arrow-about {
+  left: 0px;
+}
+
+.rightarrow-two {
+  left: 922px;
+}
+
+.rightarrow, .rightarrowbottom {
+  left: 1170px;
+}
+
+
+.circleone, .circlethree, .circletwo, .circle-two-about {
+  display: none;
+}
+
+.greyline {
+  width: 1200px;
+}
+
+.about-h1 {
+  top: 120px;
+  left: 300px; 
 }
 
 }
