@@ -85,7 +85,6 @@ nav li  {
 
 
 .scooter-sharing-heading {
-  padding-top: 100px;
   margin-left: 250px;
  
 }
@@ -112,21 +111,21 @@ nav li  {
 }
 
 .line {
-  position: absolute;
-  left: 0.5px;
-  top: 450.5px;
+  position: relative;
+  left: 0px;
+  top: 230px;
 }
 
 .right-arrow {
-  position: absolute;
-  left: 705px;
-  top: 451px;
+  position: relative;
+  left: 505px;
+  top: 360px;
 }
 
 .whiteCircles {
-  position: absolute;
-  left: 1254px;
-  top: 519px;
+  position: relative;
+  left: 600px;
+  top: 345px;
 }
 
 
@@ -248,6 +247,7 @@ nav li  {
   .circlethree {
     position: absolute;
     left: 1339px;
+    top: 2475px;
   }
 
 
@@ -650,6 +650,10 @@ label {
 @media  (max-width: 1175px) {
 /*MQ tablet home*/
 
+.whiteCircles {
+  display: none;
+}
+
 .girlphone, .cashpic {
   left: 715px;
   top: auto;
@@ -733,6 +737,10 @@ label {
 @media  (max-width: 768px) {
 /*MQ tablet home mobile*/
 
+.scooter-sharing-heading {
+  margin-top: -100px;
+}
+
 
 .header-container {
   padding-top: 20px;
@@ -752,7 +760,7 @@ label {
 }
 
 .scooter-sharing-heading {
-  padding-top: 100px;
+  padding-top: 0px;
   margin-left: 250px;
  
 }
@@ -769,8 +777,8 @@ label {
 }
 
 .right-arrow {
-  left: 0px;
-  top: 600px;
+  left: -350px;
+  top: 395px;
 }
 
 .whiteCircles {
@@ -810,7 +818,8 @@ label {
 .circleone, 
 .leftarrow, 
 .citycircle, 
-.circletwo, 
+.circletwo,
+.circlethree, 
 .cashpic, 
 .rightarrowbottom, 
 .topgraphic, 

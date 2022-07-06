@@ -11,7 +11,7 @@ import ContactForm from "./components/ContactForm";
 function App() {
   return (
     <div className="wrapper">
-     <Routes>
+     <Routes >
         <Route exact path="/" element={[<Home/>]}/> 
         <Route path="/About" element={<About/>}/>
         <Route path="//Location" element={<Locations/>}/>
